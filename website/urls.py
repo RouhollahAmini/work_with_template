@@ -22,5 +22,5 @@ from website.views import *
 app_name = 'website'
 
 urlpatterns = [
-    path('', home)
+    path('', home, name='home'),
 ]
